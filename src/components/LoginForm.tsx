@@ -67,7 +67,7 @@ const LoginForm = () => {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-2xl mb-4 shadow-glow">
             <Shield className="w-8 h-8 text-primary-foreground" />
           </div>
-          <h1 className="text-2xl font-bold text-foreground mb-2">SecureBiz Portal</h1>
+          <h1 className="text-2xl font-bold text-foreground mb-2">Start my Shop</h1>
           <p className="text-muted-foreground">Access your business account</p>
         </div>
 
@@ -177,7 +177,7 @@ const LoginForm = () => {
 
         {/* Footer */}
         <div className="text-center mt-8 text-xs text-muted-foreground">
-          <p>© 2024 SecureBiz Portal. All rights reserved.</p>
+          <p>© 2024 StartmyShop. All rights reserved.</p>
           <p className="mt-1">Secure • Reliable • Trusted</p>
         </div>
       </div>
