@@ -2,15 +2,15 @@
 
 **Simplifying compliance across Commonwealth, State, and Local laws in Australia.**
 
-Red Tape Navigator helps businesses and individuals quickly discover which regulations, licences, and obligations apply to them based on location and activity. Powered by AI and government data, the tool cuts through complexity—so Australians can navigate compliance with clarity and confidence.
+Red Tape Navigator helps businesses and individuals quickly discover which regulations, licences, and obligations apply to them based on location and activity. Powered by AI and government data, the tool cuts through complexity, so Australians can navigate compliance with clarity and confidence.
 
 ---
 
 ##  Why Red Tape Navigator?
 
--  **Regulatory confusion is costly**—navigating overlapping rules across local councils, states, and federal laws is time-consuming and error-prone.
--  **A unified, user-friendly solution**—just enter your postcode and activity, and instantly get structured, jurisdiction-aware compliance guidance.
--  **Grounded in authoritative data**—we integrate multiple public datasets and provide clear sources for every recommendation.
+-  **Regulatory confusion is costly**, navigating overlapping rules across local councils, states, and federal laws is time-consuming and error-prone.
+-  **A unified, user-friendly solution**, just enter your postcode and activity, and instantly get structured, jurisdiction-aware compliance guidance.
+-  **Grounded in authoritative data**, we integrate multiple public datasets and provide clear sources for every recommendation.
 
 ---
 
@@ -42,5 +42,5 @@ Visit the [GovHack submission portal link or hosted site] to try the live demo.
 
 ---
 
-##  Folder Structure
+
 
