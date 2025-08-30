@@ -80,17 +80,7 @@ const DashboardForm = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-background/95 to-primary/5 p-6">
-      <div className="mx-auto max-w-4xl space-y-8">
-        {/* Header */}
-        <div className="text-center">
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Business Compliance Dashboard
-          </h1>
-          <p className="mt-2 text-muted-foreground">
-            Enter your business details to identify regulatory requirements
-          </p>
-        </div>
+    <div className="space-y-6">
 
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
@@ -313,7 +303,6 @@ const DashboardForm = () => {
             </div>
           </form>
         </Form>
-      </div>
     </div>
   );
 };
