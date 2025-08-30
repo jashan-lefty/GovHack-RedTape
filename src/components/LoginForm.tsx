@@ -177,7 +177,7 @@ const LoginForm = () => {
 
         {/* Footer */}
         <div className="text-center mt-8 text-xs text-muted-foreground">
-          <p>© 2024 StartmyShop. All rights reserved.</p>
+          <p>© 2025 StartmyShop. All rights reserved.</p>
           <p className="mt-1">Secure • Reliable • Trusted</p>
         </div>
       </div>
