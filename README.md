@@ -1,73 +1,46 @@
-# Welcome to your Lovable project
+# Red Tape Navigator
 
-## Project info
+**Simplifying compliance across Commonwealth, State, and Local laws in Australia.**
 
-**URL**: https://lovable.dev/projects/6189bfbe-ab1a-4dac-925d-fab22387385c
+Red Tape Navigator helps businesses and individuals quickly discover which regulations, licences, and obligations apply to them based on location and activity. Powered by AI and government data, the tool cuts through complexity—so Australians can navigate compliance with clarity and confidence.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+##  Why Red Tape Navigator?
 
-**Use Lovable**
+-  **Regulatory confusion is costly**—navigating overlapping rules across local councils, states, and federal laws is time-consuming and error-prone.
+-  **A unified, user-friendly solution**—just enter your postcode and activity, and instantly get structured, jurisdiction-aware compliance guidance.
+-  **Grounded in authoritative data**—we integrate multiple public datasets and provide clear sources for every recommendation.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6189bfbe-ab1a-4dac-925d-fab22387385c) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+##  Live Demo & Features
 
-**Use your preferred IDE**
+Visit the [GovHack submission portal link or hosted site] to try the live demo.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Minimal, intuitive frontend UI built with **React**, **Vite**, and **shadcn-ui**.
+- Dynamic forms to input your **postcode**, **business activity**, **ANZSIC code**, **business structure**, and controlled substances involvement.
+- Retrieves obligations using:
+  - **ABLIS**: licence requirements across all government levels.
+  - **ABS ASGS**: maps postcodes to state and local government area.
+  - **Controlled Substances flags**: adds extra queries for alcohol, medicines, and hazardous chemicals.
+- Built-in **Selenium scraper** (in `scraper/selenium.js`) that pulls structured results from ABLIS when APIs are unavailable.
+- Backend uses **OpenAI** to compose human-friendly responses with clear jurisdiction grouping, overlap detection, and source citations.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+##  Data Sources Integrated
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+| Dataset                               | Use in Project                                                  |
+|--------------------------------------|-----------------------------------------------------------------|
+| **ABLIS Activity Search**            | Core licence and regulator lookup via Selenium.                |
+| **ABS ASGS – Local Government Areas**| Map postcode → State + LGA.                                     |
+| **Federal Legislation Register**     | Provide authoritative federal law references.                  |
+| **State/Territory Legislation Portals** | Added for credibility; referenced in docs.                 |
+| **ALRC Commonwealth Statute Book**   | Shows legislative complexity and context; cited in write-up.   |
+| **Safe Work Australia & TGA (Optional)** | Cover workplace safety and medicine/poison regulation.      |
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+##  Folder Structure
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6189bfbe-ab1a-4dac-925d-fab22387385c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
