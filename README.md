@@ -1,8 +1,13 @@
 # Red Tape Navigator
 
+<img width="1896" height="961" alt="Screenshot 2025-08-30 191816" src="https://github.com/user-attachments/assets/a7b770dc-3de8-4b02-a01f-7ff89b19583a" />
+
+
 **Simplifying compliance across Commonwealth, State, and Local laws in Australia.**
 
 Red Tape Navigator helps businesses and individuals quickly discover which regulations, licences, and obligations apply to them based on location and activity. Powered by AI and government data, the tool cuts through complexity, so Australians can navigate compliance with clarity and confidence.
+
+<img width="1905" height="962" alt="Screenshot 2025-08-30 191656" src="https://github.com/user-attachments/assets/668bf5ce-c734-47c3-b508-925164fb0151" />
 
 ---
 
